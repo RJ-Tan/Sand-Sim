@@ -6,7 +6,7 @@
   function resize(canvas:HTMLCanvasElement){
     //canvas.width = window.innerWidth;
     //canvas.height = window.innerHeight;
-    console.log("this ransss")
+    
     sim = new Sim(canvas);
   }
 
@@ -130,9 +130,7 @@ function canvasMouseMove(ev:MouseEvent){
   //console.log(` ${canvX} ${canvY}`);
 
   currentCanvasMouseLoc = [canvX, canvY];
-  //console.log(currentCanvasMouseLoc)
-  //}
-  //console.log(` ${x} ${y}`);
+
 }
 
 function canvasMouseDown(ev:MouseEvent){
