@@ -81,7 +81,6 @@ export class Sim {
         let toAdd:Cell|null = null;
         if (selectedCell==CellType.SAND){
             toAdd = new Sand();
-            console.log("BEeeee")
 
         }
         else if (selectedCell==CellType.STONE){
@@ -89,9 +88,6 @@ export class Sim {
         }
         else if(selectedCell==CellType.WATER){
             toAdd = new Water();
-        }
-        else{
-            console.log("POOO")
         }
         
         if (toAdd!=null){
@@ -117,7 +113,6 @@ export class Sim {
     }
 
     public reset(){
-        console.log("this ran")
         for (let i = 0; i < this.ySize; i++){
       
             for (let j=0; j < this.xSize; j++){
